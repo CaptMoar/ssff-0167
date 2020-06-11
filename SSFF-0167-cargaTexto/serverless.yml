@@ -22,6 +22,7 @@ service: SSFF-0167-cargaTexto
 
 provider:
   name: aws
+  stage: dev
   runtime: nodejs12.x
 
 # you can overwrite defaults here
